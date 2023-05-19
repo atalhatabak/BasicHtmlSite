@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Anasayfa  | Blogapp</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="navbar.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="blog.css">
+    
+    </head>
+    <body>
+        <header>
+            <div class="xen-nav">
+                <div class="xen-content">
+                    <a class="brand" data-item='TalhaTabak' href="index.html">TalhaTabak</a>
+                    <div class="xen-links xen-nav-items">
+                        <a href="index.html" data-item="Anasayfa" style="color:white;">Anasayfa</a>
+                        <a href="urunler.html" data-item="Ürünler">Ürünler</a>
+                        <a href="iletisim.html" data-item="İletişim">İletişim</a>
+                        <a href="hakkinda.html" data-item="Hakkında">Hakkında</a>
+                    </div>
+                    <i class=" menux fa fa-chevron-circle-down" onclick="menu()">menu</i>
+                </div>
+                <div class="dropdown" id="dropdown">
+                    <a href="urunler.html" data-item="Ürünler">Ürünler</a>
+                    <a href="iletisim.html" data-item="İletişim">İletişim</a>
+                    <a href="hakkinda.html" data-item="Hakkında">Hakkında</a>
+                </div>
+            </div>
+
+        </header>
+
+        <section>
+            <article>
+                <h2>Ahmet Talha Tabak tarafından İnternet ve Web geliştirme dersi için hazırlanan vize ödevi</h2>
+                <h3>Ödev Açıklaması</h3>
+                <p>
+                    Html tagları ve form örnekleri ile oluşturulan basit bir statik site, 6 adet html sayfasından oluşmakta <br>
+                    yapımında bootstrap kullanılmıştır artı olarak sitenin genel tasarım şeması kendi css yazımım ile gerçekleşmiştir <br>
+                    site responsive bir tasarıma sahiptir ve küçük çözünürlüklü cihazlardan açtığımızda navbar küçülecek dropdown menüye dönüşecektir <br>
+                    drowdown menünün çalışması için Javascript kullanılmıştır<br>
+                    
+                </p><br>
+                <div style="position:absolute; background:#ccc; color:black; border-radius:30px;">
+                    <center>
+                    <div class="card">
+                        <img class="card-image" src="ss1.png"/>
+                    </div>
+                    <div class="card">
+                        <img class="card-image" src="ss2.png"/>
+                    </div><br><br>
+                    <div style="position:relative; width:100%; float:left;">Dwopdown menü örnek ekran görüntüsü</div>
+                    </center>
+                </div>
+            </article>
+        </section>
+        <footer>
+            Footer alanı sayfanın en altında bulunur ve hazır bilgi veya bağlantıları içerir. Örn: 2023 - ∞   <a href="https://github.com/atalhatabak/BasicHtmlSite" >Kaynak Kod için...</a>
+        </footer>
+        
+
+
+        <script src="main.js" ></script>
+        <script src="bootstrap.bundle.min.js" ></script>
+        <script src="popper.js" ></script>
+        <script src="jquery.min.js" ></script>
+
+    </body>
+</html>

@@ -1,0 +1,167 @@
+:root {
+   --darkmatter: black;
+   --darkermatter: #2c3e50;
+   --greenapple: #2ecc71;
+   --greyapple: #ecf0f1;
+}
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+    
+}
+body {
+
+   background:#121212!important;
+   color:#EDEDED!important;
+ 
+   /*  #DA0037  */ 
+  /* background-image: -webkit-linear-gradient(left bottom, #26303a, #161134, transparent),
+   -webkit-linear-gradient(left top, #32363a, #152930, transparent),
+   -webkit-linear-gradient(right bottom, #2e3336, #181a1b, transparent); */
+ 
+   font-family: "Montserrat", sans-serif;
+ }
+ a{
+   text-decoration: none;
+   color:white;
+ }
+
+a:hover {
+    text-decoration: none;
+   color: var(--greenapple);
+}
+
+header{
+   width:100%;
+   position:relative;
+   top:0;
+}
+section{
+   position:relative;
+   width: 80%;
+   min-height:75%;
+   margin-top:50px;
+   left:10%;
+
+}
+article{
+   width:90%;
+   height:90%;
+   position:absolute;
+   left:5%;
+   top:5%;
+}
+
+footer{
+   position:fixed;
+   width:100%;
+   height:25px;
+   bottom:0;
+   opacity:0.4;
+   background:black;
+   text-align:Center;
+}
+
+input{
+   width:40%;
+   height:45px;
+   margin-top:15px;
+   margin-left:5%;
+   font-size: 20px;
+   text-align:center;
+}
+select{
+   width:40%;
+   height:45px;
+   margin-top:15px;
+   margin-left:5%;
+   font-size: 20px;
+   text-align:center;
+}
+textarea{
+   width:85%;
+   height:100px;
+   margin-top:15px;
+   margin-left:5%;
+   font-size: 20px;
+   text-align:center;
+}
+input[type=submit]{
+   width:85%;
+}
+
+
+
+
+
+.card {
+   border: 1px solid #ccc;
+   border-top:none;
+   border-bottom:none;
+   border-radius: 10px;
+   padding: 10px;
+   width: 300px;
+   height:400px;
+   float:left;
+   margin-left:30px;
+   margin-top:10px;
+   position:relative;
+   overflow: hidden;
+ }
+ 
+ .card-image {
+   width: 100%;
+   height: auto;
+   border-radius: 5px;
+ }
+ 
+ .card-content {
+   bottom: 0px;
+   position:absolute;
+ }
+ 
+ .card-title {
+   font-size: 18px;
+   margin: 0;
+ }
+ 
+ .card-description {
+   font-size: 14px;
+ }
+ 
+ .card-button {
+   display: inline-block;
+   padding: 5px 10px;
+   background-color: #ccc;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 3px;
+ }
+ 
+
+
+ .slideshow-container {
+   position: relative;
+   max-width: 400px;
+   margin: auto;
+ }
+
+ .slide {
+   display: none;
+   width: 100%;
+   height: auto;
+ }
+
+ .slide img {
+   width: 100%;
+   height: auto;
+ }
+
+ .slide.active {
+   display: block;
+ }
+
+ .slide-indicator {
+   text-align: center;
+ }
